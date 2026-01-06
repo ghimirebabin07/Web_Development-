@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Let's Learn it</title>
+  </head>
+  <body>
+    <div>
+      <h1>Forms Let's Learn it</h1>
+      <form action="post">
+        Enter your name:
+        <label for="username"></label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your name"
+        />
+      </form>
+    </div>
+    <div>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="gender">Female</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="gender">Male</label>
+    </div>
+    <div>
+      <input type="checkbox" id="Babin" name="Babin" value="Babin" />
+      <label for="Babin">Babin</label>
+    </div>
+    <div>
+      <label for="message">Enter your comment here </label>
+      <br />
+      <textarea id="message" name="message" rows="10" cols="30"></textarea>
+    </div>
+    <div>
+        <select name="Fruits">
+            <option value="Mango">Mango</option>
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+        </select>
+    </div>
+  </body>
 </html>
