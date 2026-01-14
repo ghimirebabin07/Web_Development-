@@ -5,8 +5,9 @@ p{
 a{
     background-color: rgb(222, 111, 92);
 }
-a{
-    background-color: beige;
-    border: rgb(202, 202, 118)
-
+div {
+    background-color: rgb(227, 227, 217);
+}
+span{
+    background-color: blue ;
 }
