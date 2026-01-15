@@ -21,3 +21,36 @@ button {
   display: block;
   margin: 10px;
 }
+a {
+  color: #0066cc;
+  text-decoration: none;
+  border: #0066cc solid 2px;
+  padding: 4px;
+}
+a:hover{
+  background: #98bcdf;
+  color: rgb(247, 239, 239);
+}
+.box {
+  background: white;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+h2 {
+  border: #0066cc solid 4px;
+  color: #333;
+} 
+button:hover {
+  background: #004999;
+}
+div.box1 {
+  background: rgb(186, 47, 47);
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+} 
