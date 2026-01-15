@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  background: #eef2f3;
+  text-align: center;
+}
+
+input, textarea, button {
+  width: 300px;
+  padding: 8px;
+  margin: 6px;
+}
+
+button {
+  background: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.box a {
+  display: block;
+  margin: 10px;
+}

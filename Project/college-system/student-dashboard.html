@@ -1,0 +1,18 @@
+<h2>Student Dashboard</h2>
+
+<div id="profile"></div>
+
+<h3>Notices</h3>
+<div id="notices"></div>
+
+<script>
+const student = JSON.parse(localStorage.getItem("currentStudent"));
+document.getElementById("profile").innerHTML =
+  `<p>Name: ${student.name}</p>
+   <p>Email: ${student.email}</p>
+   <p>ID: ${student.id}</p>`;
+
+const notices = JSON.parse(localStorage.getItem("notices")) || [];
+document.getElementById("notices").innerHTML =
+  notices.map(n => `<p>📢 ${n}</p>`).join("");
+</script>
