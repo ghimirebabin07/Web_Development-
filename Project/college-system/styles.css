@@ -1,56 +1,59 @@
 body {
-  font-family: Arial;
-  background: #eef2f3;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1, h2, h3 {
   text-align: center;
+  margin-bottom: 15px;
 }
 
-input, textarea, button {
-  width: 300px;
-  padding: 8px;
-  margin: 6px;
-}
-
-button {
-  background: #0066cc;
-  color: white;
-  border: none;
-  cursor: pointer;
+.box,
+.box1 {
+  width: 350px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
 }
 
 .box a {
   display: block;
-  margin: 10px;
-}
-a {
-  color: #0066cc;
+  text-align: center;
   text-decoration: none;
-  border: #0066cc solid 2px;
-  padding: 4px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
 }
-a:hover{
-  background: #98bcdf;
-  color: rgb(247, 239, 239);
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #999;
 }
-.box {
-  background: white;
-  width: 400px;
-  margin: auto;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
 }
-h2 {
-  border: #0066cc solid 4px;
-  color: #333;
-} 
-button:hover {
-  background: #004999;
+
+#profile,
+#notices {
+  width: 500px;
+  margin: 15px auto;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
 }
-div.box1 {
-  background: rgb(186, 47, 47);
-  width: 350px;
-  margin: auto;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
-} 
+
+#profile p,
+#notices p {
+  margin: 5px 0;
+}
