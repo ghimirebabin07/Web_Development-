@@ -5,32 +5,35 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f4f7;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #74a7f5;
 }
 
 .navbar {
-  background-color: darkblue;
-  color: white;
+  background-color: rgb(9, 9, 114);
+  color: rgb(255, 255, 255);
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
+
 }
+
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 30px;
 }
+
 
 .nav-links a {
   color: white;
-  text-decoration: none;
+  text-decoration: thistle;
 }
 
 h1 {
   text-align: center;
-  margin: 25px 0;
+  margin: 40px 0;
   color: darkblue;
 }
 
@@ -41,12 +44,12 @@ h1 {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(242, 146, 146);
   width: 240px;
   padding: 15px;
-  border-radius: 6px;
+  border-radius: 10px;
   text-align: center;
-  border: 1px solid #ccc;
+  border: 2px solid #260f0f;
 }
 
 .card h3 {
