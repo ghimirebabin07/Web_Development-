@@ -1,6 +1,9 @@
 #main-heading {
     color: darkgreen;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 50px;   
 }
 
 
