@@ -6,11 +6,13 @@
 
 .card {
     background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     width: 400px;
     margin: 40px auto;
     padding: 20px;
     border: 2px solid gray;
     border-radius: 8px;
+    border: 5px double black;
 }
 
 
@@ -21,7 +23,7 @@
 }
 
 .btn {
-    background-color: darkgreen;
+    background-color: rgb(18, 230, 18);
     color: white;
     padding: 8px 18px;
     border: none;
@@ -30,5 +32,5 @@
 }
 
 .btn:hover {
-    background-color: green;
+    background-color: rgb(42, 8, 145);
 }
