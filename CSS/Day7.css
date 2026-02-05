@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif, sans-serif;
+  background: linear-gradient(120deg, #4e70dd, #f2f4f7);
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  color: rgb(2, 2, 83);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: rgba(133, 214, 249, 0.788);
+  width: 360px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 34px 4px 10px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 9px;
+  border-radius: 5px;
+  border: 1px solid #d26767;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: darkblue;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+}
+
+.radio-group label {
+  font-weight: normal;
+}
+
+.checkbox label {
+  font-weight: normal;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: blue;
+}
