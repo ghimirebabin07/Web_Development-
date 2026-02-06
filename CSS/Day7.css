@@ -47,7 +47,7 @@ input, select {
 
 input:focus, select:focus {
   outline: none;
-  border-color: darkblue;
+  border-color: rgb(53, 53, 210);
 }
 
 .radio-group {
@@ -66,7 +66,7 @@ input:focus, select:focus {
 button {
   width: 100%;
   padding: 10px;
-  background-color: darkblue;
+  background-color: rgba(66, 66, 196, 0.884);
   color: white;
   border: none;
   border-radius: 5px;
@@ -75,5 +75,5 @@ button {
 }
 
 button:hover {
-  background-color: blue;
+  background-color: rgb(35, 199, 62);
 }
