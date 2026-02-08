@@ -30,12 +30,12 @@ body {
 }
 
 .card h2 {
-  color: #2b2b7a;
+  color: #4242ce;
   margin-bottom: 5px;
 }
 
 .role {
-  color: gray;
+  color: rgb(86, 82, 6);
   font-size: 14px;
   margin-bottom: 15px;
 }
@@ -49,7 +49,7 @@ body {
 button {
   padding: 10px 20px;
   border: none;
-  background-color: #4e70dd;
+  background-color: #0b2a92;
   color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -57,5 +57,11 @@ button {
 }
 
 button:hover {
-  background-color: #2ecc71;
+  background-color: #c60d7c;
+}
+button + button:hover{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #c2187b;
+  margin-bottom: auto  10px;
+
 }
