@@ -1,11 +1,11 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
+
 body {
   height: 100vh;
   display: flex;
@@ -15,7 +15,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Card */
 div {
   background: #ffffff;
   width: 350px;
@@ -28,13 +27,11 @@ div {
   transition: 0.4s ease;
 }
 
-/* Card Hover Effect */
 div:hover {
   transform: translateY(-10px);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
 }
 
-/* Profile Image */
 img {
   width: 130px;
   height: 130px;
@@ -49,14 +46,12 @@ img:hover {
   transform: scale(1.1);
 }
 
-/* Name */
 h2 {
   font-size: 22px;
   margin-bottom: 5px;
   color: #1e3c72;
 }
 
-/* Role */
 p:nth-of-type(1) {
   color: #777;
   font-size: 14px;
@@ -65,7 +60,6 @@ p:nth-of-type(1) {
   text-transform: uppercase;
 }
 
-/* Description */
 p:nth-of-type(2) {
   font-size: 14px;
   color: #444;
@@ -73,7 +67,6 @@ p:nth-of-type(2) {
   line-height: 1.6;
 }
 
-/* Buttons */
 button {
   padding: 10px 18px;
   border: none;
@@ -86,7 +79,6 @@ button {
   transition: 0.3s ease;
 }
 
-/* Button Hover */
 button:hover {
   background: linear-gradient(45deg, #ff416c, #ff4b2b);
   transform: scale(1.05);
