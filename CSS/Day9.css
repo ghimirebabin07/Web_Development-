@@ -36,7 +36,7 @@ img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  border: 5px solid #2a5298;
+  border: 0px solid #2a5298;
   object-fit: cover;
   margin-bottom: 15px;
   transition: 0.4s;
