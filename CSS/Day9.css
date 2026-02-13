@@ -80,6 +80,6 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  background: linear-gradient(45deg, #a07b84, #ff4b2b);
   transform: scale(1.05);
 }
