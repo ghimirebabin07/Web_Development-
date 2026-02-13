@@ -1,0 +1,44 @@
+CSS Summary Notes
+
+I have learned many important concepts in CSS that help me style and design web pages. 
+First, I practiced text styling. I can change the color, font, size, and alignment of text. 
+For example, I used darkblue for headings, Times New Roman for fonts, and centered text 
+to make it look neat.
+
+Next, I studied the box model. This includes margin, padding, borders, and shadows. 
+I tried different border styles like solid, double, and rounded corners. I also used 
+box-shadow to make cards look lifted and more attractive.
+
+I learned about backgrounds. I used solid colors and also gradients like 
+linear-gradient(120deg, #4e70dd, #f2f4f7). I added hover effects so that elements 
+change color when the mouse moves over them.
+
+For layout, I used Flexbox. With display: flex, justify-content: center, and gap, 
+I arranged boxes, cards, and navigation bars neatly on the page. Flexbox makes 
+designing layouts easier and more responsive.
+
+I styled buttons with padding, colors, rounded corners, and hover effects. Some buttons 
+had gradient backgrounds and smooth transitions. This makes them interactive and 
+user-friendly.
+
+I created cards and boxes for content. I even made profile cards with circular images 
+using border-radius: 50%. I also styled forms, making inputs, textareas, and dropdowns 
+look clean. I added focus effects so they highlight when clicked.
+
+I built a navigation bar using Flexbox, styled links, and added spacing. I also used 
+transitions and transforms to animate hover effects, like scaling images or moving 
+cards slightly upward.
+
+In summary, I have learned:
+- Text styling (fonts, colors, alignment)
+- Box model (margin, padding, borders, shadows)
+- Backgrounds (colors, gradients, hover effects)
+- Layout with Flexbox
+- Buttons with hover and transitions
+- Cards, boxes, and profile components
+- Forms with inputs, labels, and focus states
+- Navigation bars
+- Animations with transitions and transforms
+
+This means I now understand the core building blocks of CSS. I can style text, 
+arrange layouts, design interactive elements, and make web pages visually appealing.
