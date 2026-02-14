@@ -54,6 +54,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
+  margin: 10px;
 }
 
 button:hover {
@@ -62,6 +63,7 @@ button:hover {
 button + button:hover{
   font-family: 'Times New Roman', Times, serif;
   background-color: #c2187b;
-  margin-bottom: auto  10px;
+  margin-bottom:10px;
+  
 
 }
