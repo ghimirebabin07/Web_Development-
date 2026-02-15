@@ -65,13 +65,15 @@ input:focus, select:focus {
 
 button {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   background-color: rgba(66, 66, 196, 0.884);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  margin-bottom :10px;
+  
 }
 
 button:hover {
