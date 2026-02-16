@@ -1,0 +1,163 @@
+
+JavaScript Day 1 – Basic Notes
+(Node.js Version)
+
+1) WHAT IS JAVASCRIPT?
+
+JavaScript is a programming language.
+It is used to make websites interactive.
+When using Node.js, we can run JavaScript in the terminal.
+
+
+2) PRINTING OUTPUT IN TERMINAL
+
+Code:
+
+console.log("Hello Bain, Welcome to JavaScript");
+
+Explanation:
+
+- console.log() is used to print output.
+- Anything inside (" ") will be displayed.
+- This works in Node.js terminal.
+
+Output:
+Hello Bain, Welcome to JavaScript
+
+
+3) VARIABLES
+
+A variable is like a container (box) that stores data.
+
+Syntax:
+let variableName = value;
+
+Example:
+
+let name = "Babin";
+let age = 19;
+const country = "Nepal";
+
+Explanation:
+
+- let → value can be changed later
+- const → value cannot be changed
+- name stores "Babin"
+- age stores 19
+- country stores "Nepal"
+
+Example of changing let value:
+
+age = 20;   (Allowed)
+
+Example of changing const value:
+
+country = "India";   (Error Not allowed)
+
+
+
+4) PRINTING VARIABLES
+
+
+Code:
+
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Country:", country);
+
+Explanation:
+
+- We can print text and variable together.
+- The comma (,) joins text and variable value.
+
+Output:
+Name: Babin
+Age: 19
+Country: Nepal
+
+
+
+5) DATA TYPES
+
+
+JavaScript has different types of data.
+
+Example:
+
+let isStudent = true;
+let value = null;
+let x;
+
+Explanation:
+
+1. Boolean
+   - true or false
+   - Used for yes/no type data
+   Example: isStudent = true
+
+2. Null
+   - Means empty on purpose
+   - No value assigned intentionally
+   Example: value = null
+
+3. Undefined
+   - When a variable is created but no value is given
+   Example: let x;
+   - x becomes undefined
+
+
+6) PRINTING DATA TYPES
+
+Code:
+
+console.log("Is Student:", isStudent);
+console.log("Value:", value);
+console.log("X:", x);
+
+Output:
+Is Student: true
+Value: null
+X: undefined
+
+
+
+7) COMPLETE DAY 1 CODE
+
+
+console.log("Hello Bain, Welcome to JavaScript");
+
+let name = "Babin";
+let age = 19;
+const country = "Nepal";
+
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Country:", country);
+
+let isStudent = true;
+let value = null;
+let x;
+
+console.log("Is Student:", isStudent);
+console.log("Value:", value);
+console.log("X:", x);
+
+
+
+8) HOW TO RUN IN NODE.JS
+
+
+Step 1: Save file as
+Day1.js
+
+Step 2: Open terminal in that folder
+
+Step 3: Run command:
+node Day1.js
+
+You will see the output in terminal.
+
+
+
+END OF DAY 1 NOTES
+
